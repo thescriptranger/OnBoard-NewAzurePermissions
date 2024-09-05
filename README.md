@@ -38,6 +38,7 @@ To onboard a new user, run the following command in PowerShell:
 
 ```powershell
 OnBoard-NewAzurePermission -UserPrincipalName "jane.doe@company.com" -Position "Developer" -Client "ClientA" -SubscriptionId "00000000-0000-0000-0000-000000000000"
+```
 
 ### This command will:
 
@@ -55,4 +56,4 @@ ResourceGroup,ResourceGroup1,Contributor,
 VirtualMachine,VM1,Reader,ResourceGroup1
 StorageAccount,StorageAccount1,Storage Blob Data Contributor,ResourceGroup1
 AppService,MyAppService,Contributor,ResourceGroup1
-
+```
